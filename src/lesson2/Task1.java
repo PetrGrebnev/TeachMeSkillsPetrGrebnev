@@ -16,7 +16,9 @@ public class Task1 {
         int integer = scanner.nextInt();
         System.out.print("Введите число Short: ");
         int shortik = scanner.nextInt();
-        threeMaxMinAverage(bytik, integer, shortik);
+        if (bytik == shortik && shortik == integer){
+            System.out.println("Все числа равны!");
+        } else threeMaxMinAverage(bytik, integer, shortik);
     }
      public static void threeMaxMinAverage(int a, int b, int c){
          int firstСouple = maxTwoNumber(a, b);
