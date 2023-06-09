@@ -1,1 +1,1 @@
-Здесь хранятся ДЗ  TeachMeSkills
+Здесь хранятся ДЗ  TeachMeSkills на Java
